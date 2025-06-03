@@ -1,0 +1,125 @@
+@charset 'UTF-8';
+
+
+body {
+    background-color: beige;
+    line-height: 2.0em;
+}
+.titulo01 {
+text-align: center;
+color: white;
+
+}
+#cabeça {
+    background: linear-gradient(to top, #063D1E, #2FA866);
+    border: 1px solid black; 
+height: 200px;
+
+    
+}
+   
+.links > a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: 900;
+  font-size: 20px;
+  color: #3DDC84;
+  line-height: 2.0em;
+}
+
+.link01.link01:hover {
+    background-color: rgb(2, 71, 2);
+    padding: 20PX
+
+}
+ .text01 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+   font-size: 18px;
+
+
+ }
+
+ main {
+   
+    box-shadow:  2px 2px 2px 2px  black;
+    height: auto;
+    width: 1000px;
+    text-align: center;
+   margin: 0 auto auto auto;
+    background-color: white;
+    padding: 20px;
+    
+ }
+
+ .titulo03 {
+    
+    font-family: idroid;
+    text-align: left;
+  
+    color:rgb(2, 71, 2); ;
+    padding: 2px 10px 2px 10px  ;
+    background: linear-gradient(to right,  #3DDC84,  #3ddc8500);
+    margin-left: 10px;
+ }
+
+.dan {
+    background-color: #0ddd67;
+    font-weight: bold;
+    margin: 2px;
+    padding: 4px;
+    color: #063D1E;
+    text-decoration: none;
+    
+}
+
+.video {
+    background-color: #063D1E;
+}
+
+.lista {
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 10px;
+  
+    margin:  20px auto;
+    background-color:  #3DDC84;
+    width: 800px;
+    height: 500px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: '\2714\0020\0020';
+    list-style-position: inside;
+    columns: 2;
+    margin-top: -24px;
+    padding: 18px;
+}
+
+.aprender {
+    margin:0 ;
+    height: 50px;
+    border-radius: 10px 10px 0 0 ;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+footer {
+    height:auto;
+    margin: auto;
+    background-color: #063D1E;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+ @font-face {
+    font-family:'idroid';
+    src: url('fontes/idroid.otf')format('opentype');/* obs não é mais obrigatorio colocar o FORMAT ()*/
+    font-style: normal;
+    font-weight: normal;
+   }

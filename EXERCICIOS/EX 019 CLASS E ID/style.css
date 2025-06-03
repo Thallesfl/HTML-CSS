@@ -1,0 +1,72 @@
+@charset "UTF-8"; /* usado para não ter problemas com acentuação*/
+
+
+/* 
+em HTML tudo que é id = # em Css (so pode 1 elemento)
+em HTML tudo que é class = ponto . em CSS (pode varios elementos)
+*/
+#titulo-principal {
+background-color:rgb(0, 63, 252);
+color: aliceblue;
+text-align: center;
+}
+
+.verde {
+    background-color: white;
+    color: green;
+
+}
+
+.amarelo {
+    background-color: white;
+    color: yellow;
+    }
+
+.vermelho {
+    background-color: white;
+    color: red  ;
+}
+.cor-01 {
+    background-color: yellow;
+    color: brown;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-shadow: 10px;
+    font-style: italic;
+}
+
+.destaque {
+    background-color: aqua;
+}
+
+body {
+    background-color: rgb(180, 231, 214);
+    font-family: monospace;
+}
+
+h1 {
+    color: rgb(1, 96, 64);
+}
+
+h2 {
+    color:  rgba(2, 130, 87, 0.825);
+
+}
+
+/*<!--A diferença entre class e id no HTML e CSS é bem simples, mas muito importante para controlar o estilo e o comportamento de elementos na página.
+
+1. ID (id)
+Único por página: Cada ID deve ser único em uma página, ou seja, você só pode usar o mesmo valor de id em um único elemento na página.
+
+Alta prioridade no CSS: Os seletores de ID têm mais peso que os seletores de classe.
+
+Sintaxe no CSS: Usa # antes do nome.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Classe (class)
+Reutilizável: Uma classe pode ser aplicada a múltiplos elementos na mesma página, permitindo que você estilize vários elementos de forma semelhante.
+
+Prioridade média no CSS: Seletores de classe têm prioridade menor que os de ID, mas maior que os de elementos.
+
+Sintaxe no CSS: Usa . antes do nome.*/

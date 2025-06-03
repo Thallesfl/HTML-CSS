@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+h1 {
+    color: blue;
+    background-color: rgba(81, 230, 6, 0.913);
+    font-size: 30px;
+text-align: center;
+    
+}
+
+body {
+    background-color:chocolate  ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+h2 {
+    color: rgb(128, 2, 2);
+    background-color: rgb(142, 239, 144);
+    text-align: justify;
+}
+
+p {
+    text-align: justify ; /*ALINHAMENTO DE TEXTO: JUSTIFICADO */
+}

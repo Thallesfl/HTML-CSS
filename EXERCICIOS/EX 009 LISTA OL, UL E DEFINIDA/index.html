@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Listas </title>
+    <style> 
+        ol {
+             list-style-type: 1;  /*AQUI TEM UM ELEMENTO QUE MUDA O JEITO QUE COMEÇA A LISTA*/
+        }
+ 
+        ul {
+            list-style-type: circle; /* AQUI SE FAZ A MUDANÇA DO DESENHO TA LISTA NÃO-ORDENADA, FAZENDO ELA FICAR IGUAL UM CIRCULO*/ 
+        }
+
+ </style>
+</head>
+<body>
+<h1>trabalhando com listas </h1>
+<h2> listas ordenadas</h2>
+<ol>
+    <li> levantar </li>
+    <li>lavar o rosto</li>
+    <li>escovar os dentes</li>
+    <li>fazer cafe</li>
+    <li> falar com Deus</li>
+    <li>ir trabalhar</li>
+    <li>voltar para almoçar</li>
+    
+</ol>
+    
+<h2> listas Não-ordenadas</h2>
+
+<ul>
+    <li>pão</li>
+    <li>leite</li>
+    <li>farinha</li>
+    <li>ovo</li>
+
+</ul>
+
+<h2>lista personalizada</h2>
+<p>você ira ver abaixo <br>
+uma forma diferente de <br>
+lista, que nãi foi ensinada <br>
+no curso , mais de minha <br>
+autoria</p>
+
+<ol>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+</ol>
+
+<h2> 5 Livros do novo e antigo testamento </h2>
+
+    <ol>
+        <li>Antigo Testamento</li>
+        <ol type="A">   <!-- USANDO TYPE=A, FAZ COM QUE A LISTA SEJA NÃO NUMERADA E SIM COM ALFABETO  (A,B,C,D,E..)-->>
+            <li>Genesis</li>
+            <li>Exodo</li>    <!-- AQUI TEMOS UMA LISTA QUE ESTA DENTRO DE OUTRA LISTA-->>
+            <li>Levitico</li>
+            <li>Numeros</li>
+            <li>Deuteronomio</li>
+        </ol>
+        <br>
+        <li> Novo Testamento</li>
+        <ol type="A" start="6">   <!-- USANDO START=6, FAZ COM QUE A LISTA SEJA  NUMERADA A PARTIR DO 6º NUMERO (6,7,8,9,10)-->>
+            <li>Mateus</li>
+            <li>Marcos</li>
+            <li>Lucas</li>
+            <li>João</li>
+            <li>Apocalipse</li>
+        </ol>
+    </ol>
+
+    <h2> doces e salgados</h2>
+    <ol>
+        <li>doces</li>
+        <ul>
+            <li>pe de moleque</li>
+            <li type="square"> feito na roça</li>
+            <li type="square"> feito na cidade </li>
+            <br>
+            <li>Doce de goiaba</li>
+            <li>doce de manga</li>
+            <li> doce de beringela</li> <!-- AQUI TEMOS UM EXEMPLO DE UMA LISTA "NÃO-ORDENADA" DENTRO DE UMA "LISTA-ORDENADA"-->>
+        </ul>
+        <li>salgados</li>
+        <ul>
+            <li>coxinha</li>
+            <li>empada</li>
+            <li>salgadinho</li>
+            <li>pamonha de sal</li>
+        </ul>
+    </ol>
+
+</body>
+</html>
