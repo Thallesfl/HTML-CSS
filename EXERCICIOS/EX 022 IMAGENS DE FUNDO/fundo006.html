@@ -7,20 +7,35 @@
 </head>
 <style>
     body {
-        height: 100vh;
+        /*height: 100vh;
         background-color: black;
         background-image: url(imagens/wallpaper002.jpg);
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: cover; /*Cover significa cobrir, no caso colocando COVER em background-size ,ira mostrar a imagem de fundo, no caso no BODY, preechendo toda a tela, mesmo que haja necessidade de cortar um pouco a imagem*/
+        background-attachment: fixed;
+        background-size: cover;
+        
+        Cover significa cobrir, no caso colocando COVER em background-size ,ira mostrar a imagem de fundo, no caso no BODY, preechendo toda a tela, mesmo que haja necessidade de cortar um pouco a imagem */
+
+        background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed ;
+        background-size:cover;
+        /*Dessa forma coloquei todos os parâmentros em uma unica Tag */
+        /* BACKGROUND-SIZE: COVER não funciona com shorthand  */
     }
+
+
+    /*Shorthand - Background
+    color > image > position > repeat > [size] > attachment 
+    */
+
+    
 
     main {
         background-color: white;
-        width: 400px;
+        max-width: 400px;
         padding: 10px;
         margin: auto;
-        border: 1px solid black;
+        border: 1px solid rgb(0, 0, 0);
         border-radius: 10px;
     }
 </style>
