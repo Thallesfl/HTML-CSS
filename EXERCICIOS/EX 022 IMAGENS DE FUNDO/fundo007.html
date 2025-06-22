@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+</head>
+
+<style>
+    #container {
+        background-image: url(imagens/target001.png);
+        background-size: 100% 100%;
+
+        position: relative; /* POSICIONAMENTO ABSOLUTO*/
+        height: 96vh; /*Altura do ViewPort*/
+        background-color: purple;
+        padding: 10px;
+    }
+
+    #conteudo {
+        background-image: url(imagens/target001.png);
+         background-size: 100% 100%;
+        position: absolute; /*POSICIONAMENTO RELATIVO*/
+        height: 200px;
+        width: 400px;
+        background-color: yellow; 
+        left: 50%; /*DISTANCIA CRIADA DA ESQUERDA PARA A DIREITA DO ARTICLE DENTRO DO SECTION*/
+        top: 50%; /*DISTANCIA CRIADA DE CIMA PARA BAIXO DO ARTICLE DENTRO DE SECTION*/
+       transform: translate(-50%, -50%);
+        /*A propriedade TRANSFORM é usada para mover, girar, redimensionar, inclinar ou aplicar outras transformações visuais em elementos HTML.*/
+
+    }
+
+</style>
+<body>
+    <section id="container">
+        <article id="conteudo">
+        
+            
+        </article>
+    </section>
+    <P style="background-color: yellow;""> ESSA É MAIS UMA AULA DE COMO COLOCAR UMA DIV SEMANTICA DE FORMA CENTRALIZADA , USANDO O PARAMENTRO <STRONG style="color: red;">TRANSFORM: TRANSLATE (-50%, -50%)</STRONG> </P>
+</body>
+</html>
