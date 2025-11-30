@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+     
+        div:hover {
+        color: red;
+     }
+ div > p {
+    display: none; /*Significa: NÃO EXIBIR NENHUM */
+ }
+
+ div:hover > p { /* Esse sinal de > significa que o PARAGRAFO está dentro da DIV, ou seja, que ela é filho da div selecionada*/
+    display: block; /* Significa BLOCO DE EXIBIÇÃO*/ 
+    background-color: brown; /*Fundo de cor do paragrafo*/
+    color: white; /* Cor da fonte do parafrafo*/
+    width: 170px; /*largura do fundo do paragrafo*/
+ }
+ /*QUANDO EU PASSO O MOUSE DENTRO DA DIV, IRÁ APARECER UM TEXTO ESCONDIDO.*/
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+ <p>Passe o mouse dentro do texto abaixo</p>
+ <div> Passe o mouse aqui
+    <p>TEXTO ESCONDIDO</p>
+ </div> 
+
+ <!--A TAG <DIV> NO HTML É UM ELEMENTO DE CONTÊINER GERALMENTE USADO PARA AGRUPAR ELEMENTOS E ORGANIZÁ-LOS NA PÁGINA, SEM PREOCUPAR-SE COM O CONTEÚDO OU A FUNÇÃO DO ELEMENTO. É ÚTIL PARA ESTILIZAÇÃO E ESTRUTURAÇÃO DA PÁGINA COM CSS.
+
+.-->>
+<p>fim do exemplo</p>
+</body>
+</html>

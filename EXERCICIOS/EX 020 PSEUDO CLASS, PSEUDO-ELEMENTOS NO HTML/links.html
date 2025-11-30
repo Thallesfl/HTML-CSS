@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: beige;
+        }
+a {
+    color: red;
+    text-decoration: none; /* (DECORAÇÃO DE TEXTO)Faz com que desapareça o underline da tag A */ 
+    font-weight: bolder; /*Aumenta o peso da fonte*/
+}
+ a:visited {
+    color: aquamarine; /* Faz com que ao clicar num link, ele muda de cor, nesse caso coloquei aquamarine*/
+ }
+
+ a:hover { /*Faz com que , ao passar o mouse em cima da tag A (no caso os links), mude de cor para preto  e apareça o underline */
+    text-decoration: underline;
+    color: black;
+ }
+
+ a:active { /* a pseudo classe active faz com que o texto ou item selecionado mude de cor quando fica
+     clicado o mouse sem soltar ou quando dá um clique*/ 
+    color: yellow;
+  }
+
+
+  .especial::after { /*É um PSEUDO-ELEMENTO que significa (DEPOIS DE )*/
+    content: '✪'; /*Traduzido: contem [link]*/
+    text-decoration: none; /* (DECORAÇÃO DE TEXTO)Faz com que desapareça o underline da tag A */ 
+    font-weight: normal;/* SIGNIFICA PESO DA FONTE: NORMAL*/
+    color: blue;
+}
+
+.especial::before { /*É um PSEUDO-ELEMENTO que significa (ANTES DE  )*/
+    content: '♦';
+    text-decoration: none; /* (DECORAÇÃO DE TEXTO)Faz com que desapareça o underline da tag A */ 
+    font-weight: normal;/* SIGNIFICA PESO DA FONTE: NORMAL*/
+    color: blue;
+}
+
+.especial {
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+/* Observe no link abaixo que direciona para o site do  (CURSO EM VIDEO) que eu coloquei a CLASS: especial, para mostra no STYLE do CSS
+que somente ela irá ter os PSEUDO ELEMETOS BEFORE E AFTER */
+
+
+
+    </style>
+</head>
+<body>
+     <h1> Personalizando Links</h1>
+     <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositorio do Github</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/" target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank" class="especial">Site do Curso em video</a></li>
+     </ul>
+
+    <h2> OS PSEUDO ELEMETOS FUNCIONAM NAS <MARK>ID'S</MARK> , <MARK>ELEMENTOS</MARK> E <MARK>CLASSES</MARK> </h2>
+
+    <H4 style="font-style: italic; text-decoration: underline;"> SELETORES PERSONALIZADOS</H4>
+    <UL style="font-size: 25px;">
+        <li><strong># <mark style="color: red;">=</mark> id</strong></li>
+        <br>
+        <li> <strong>. <mark style="color: red;">=</mark> class</strong></li>
+        <br>
+        <li><strong>: <mark style="color: red;">=</mark> pseudo-class</strong></li>
+        <br>
+        <li><strong>:: <mark style="color: red;">=</mark> pseudo-elemento</strong></li>
+        <br>
+        <li> <strong> > <mark style="color: red;">=</mark> Children </strong></li>
+    </UL>
+
+    <!--SELETORES PERSONALIZADOS
+    # = id
+    . = CLASS
+    : = PSEUDO-CLASS
+    :: = PSEUDO-ELEMENTO
+    SINAL DE > = CHILDREN (FILHO DE )
+    -->>
+</body>
+</html>

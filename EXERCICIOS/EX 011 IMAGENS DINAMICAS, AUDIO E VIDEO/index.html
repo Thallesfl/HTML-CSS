@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em Html 5</title>
+</head>
+<body>
+     <h1> imagem dinamica</h1>
+     <p> Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumenta e diminua o tamanho do seu navegador.</p>
+
+     <picture>
+        <source media ="(min-width:700px)" srcset="IMAGENS/foto-p.png" type="image/png">  
+        <source media="(min-width:1000px )" srcset="IMAGENS/foto-m.png" type="image/png">
+        <img src="IMAGENS/foto-g.png" alt="imagem flexivel">
+     </picture>
+<!--A TAG <PICTURE> SERVE PARA EXIBIR IMAGENS DIFERENTES DEPENDENDO DO TAMANHO DA TELA (RESPONSIVIDADE). ELA FUNCIONA JUNTO COM AS TAGS <SOURCE> E <IMG>.DESSA FORMA EU COLOCO AS IMAGENS DE FORMA QUE SE EU DER ZOOM NO SITE ELA VAI APARECER, E SE EU DIMINUIR O ZOOM TAMBEM, DE FORMA, -->>
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+     <h1>Reproduzindo Audios</h1>
+     <p>Vamos aprender a reproduzir audio em HTML5</p>
+      <audio src="MEDIA/musica.mp3" controls="play" preload="metadata" loop > </audio>
+ <!--A TAG <AUDIO> É USADA PARA EMBUTIR UM ARQUIVO DE ÁUDIO EM UMA PÁGINA HTML.-->>
+
+    <!--
+    *SRC = CAMINHO
+
+    *CONTROLS:PLAY = CONTROLE:JOGAR
+
+    *PRELOAD:METADATA = ESSE ATRIBUTO DIZ AO NAVEGADOR PARA CARREGAR APENAS AS INFORMAÇÕES BÁSICAS DO ÁUDIO (COMO DURAÇÃO, AUTOR, ETC.) ANTES DO USUÁRIO DAR PLAY
+
+    *LOOP: PARA O AUDIO TER REPETIÇÃO AUTOMATICA 
+
+    -->>
+      
+
+    
+   
+    
+</html>
