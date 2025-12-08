@@ -9,11 +9,13 @@
      <h1> imagem dinamica</h1>
      <p> Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumenta e diminua o tamanho do seu navegador.</p>
 
-     <picture>
-        <source media ="(min-width:700px)" srcset="IMAGENS/foto-p.png" type="image/png">  
-        <source media="(min-width:1000px )" srcset="IMAGENS/foto-m.png" type="image/png">
-        <img src="IMAGENS/foto-g.png" alt="imagem flexivel">
-     </picture>
+<picture>
+     <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+     <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+     <img src="imagens/foto-g.png" alt="foto flexivel">
+</picture>
+
+
 <!--A TAG <PICTURE> SERVE PARA EXIBIR IMAGENS DIFERENTES DEPENDENDO DO TAMANHO DA TELA (RESPONSIVIDADE). ELA FUNCIONA JUNTO COM AS TAGS <SOURCE> E <IMG>.DESSA FORMA EU COLOCO AS IMAGENS DE FORMA QUE SE EU DER ZOOM NO SITE ELA VAI APARECER, E SE EU DIMINUIR O ZOOM TAMBEM, DE FORMA, -->>
 -------------------------------------------------------------------------------------------------------------------------------------------
 
