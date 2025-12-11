@@ -21,8 +21,21 @@
 
      <h1>Reproduzindo Audios</h1>
      <p>Vamos aprender a reproduzir audio em HTML5</p>
-      <audio src="MEDIA/musica.mp3" controls="play" preload="metadata" loop > </audio>
+      <audio src="media/musica.mp3" controls="play" preload="metadata" loop > </audio>
  <!--A TAG <AUDIO> É USADA PARA EMBUTIR UM ARQUIVO DE ÁUDIO EM UMA PÁGINA HTML.-->>
+
+     <!--NORMALMENTE OS NAVEGADORE  SÃO COMPATIVEL COM TRÊS TIPOS DE AUDIO: MP3 WAV E OGG-->
+<strong>
+     
+     <P> PARA EU COLOCAR 3 AUDIOS IGUAIS EM QUE 1 DELES VAI RODAR NO NAVEGADOR, ENTÃO DEVO FAZER O MESMO PROCEDIMENTO QUE FOI FEITO EM IMAGENS. VEJA ABAIXO</P>
+</strong>
+
+
+ <audio controls>
+     <source src="media/musica.mp3" type="audio/mpeg">
+     <source src="media/musica.ogg" type="audio/ogg">
+     <source src="media/musica.wav" type="audio/wav">
+ </audio>
 
     <!--
     *SRC = CAMINHO
